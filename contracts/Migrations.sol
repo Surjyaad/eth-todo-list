@@ -4,6 +4,7 @@ contract Migrations {
   address public owner;
   uint public last_completed_migration;
 
+// new command
   constructor() public {
     owner = msg.sender;
   }
